@@ -24,7 +24,7 @@ export default class DesktopFooter extends Component {
         <Grid.Row>
           <Grid.Column width={5} verticalAlign="middle">
             <p style={{ textAlign: "center", fontSize: "1.1em" }}>
-              &copy; The Ohio State University Cyber Security Club
+              &copy; Cyber Security Club at The Ohio State University
             </p>
           </Grid.Column>
           <Grid.Column style={{ textAlign: "center" }} width={7} />
