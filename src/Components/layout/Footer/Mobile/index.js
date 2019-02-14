@@ -33,13 +33,13 @@ export default class MobileFooter extends Component {
             style={{ textAlign: "center" }}
             width={4}
           >
-            <a style={{ color: "green" }} href="#">
+            <a style={{ color: "green" }} href="http://slack.osucyber.club">
               <Icon link name="slack" size="large" />
             </a>
-            <a style={{ color: "white" }} href="#">
+            <a style={{ color: "white" }} href="mailto:info@osucyber.club">
               <Icon link name="paper plane" size="large" />
             </a>
-            <a style={{ color: "#026FBF" }} href="#">
+            <a style={{ color: "#026FBF" }} href="http://mailinglist.osucyber.club">
               <Icon link name="mail" size="large" />
             </a>
           </Grid.Column>
