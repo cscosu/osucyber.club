@@ -40,11 +40,11 @@ export default class Contact extends Component {
                 </List.Item>
                 <List.Item>
                   <List.Icon name="mail" />
-                  <List.Content>cam@taylor.com</List.Content>
+                  <List.Content>info@osucyber.club</List.Content>
                 </List.Item>
                 <List.Item>
                   <List.Icon name="phone" />
-                  <List.Content>867-5309</List.Content>
+                  <List.Content>614-403-4027</List.Content>
                 </List.Item>
               </List>
             </div>

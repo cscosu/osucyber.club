@@ -67,11 +67,11 @@ class About extends Component {
                   </p>
                   <p>
                     <b>Weekly meetings: </b>
-                    held from 7:00 - 8:00PM (room TBD)
+                    7:00 - 8:00PM in JR 270
                     <br />
                   </p>
                   <p>
-                    Join our <a href="#">Slack</a> channel to stay in the loop!
+                    Join our <a href="slack.osucyber.club">Slack</a> channel to stay in the loop!
                   </p>
                 </Grid.Column>
               </Grid>
