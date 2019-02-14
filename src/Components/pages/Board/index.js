@@ -13,7 +13,7 @@ class Board extends Component {
   // To add more board just set an initial actionKey for them
   state = {
     ct: "info",
-    iq: "info",
+    mh: "info",
     da: "info",
     nk: "info"
   };
