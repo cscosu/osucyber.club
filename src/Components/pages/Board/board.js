@@ -6,12 +6,12 @@ export default [
     image: "img/board/cam.jpg",
     role: "President",
     email: "cameron@osucyber.club",
-    bio: `Cam likes long walks on the beach and hacking drones.`,
-    quote: `“Cyber is lyfe.”`,
-    facebook: "https://www.facebook.com/",
-    instagram: "https://www.instagram.com/",
+    bio: `I'm a hardware guy at heart, but what good is that without a little software knowledge?`,
+    quote: `“:w saves”`,
+    //facebook: "https://www.facebook.com/",
+    //instagram: "https://www.instagram.com/",
     twitter: "https://twitter.com/bobataylor",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/cameron-taylor-77b22b109/",
     github: "https://github.com/bobataylor"
   },
   {
@@ -23,11 +23,11 @@ export default [
     email: "michael@osucyber.club",
     bio: `Michael's new in town`,
     quote: `"<script>alert('xss')</script>"`,
-    facebook: "https://www.facebook.com/",
-    instagram: "https://www.instagram.com/",
-    twitter: "https://twitter.com/",
-    linkedin: "https://www.linkedin.com/in/",
-    github: "https://github.com/"
+    facebook: "https://www.facebook.com/michael.hayworth.37",
+    //instagram: "https://www.instagram.com/",
+    twitter: "https://twitter.com/mikewheatvalue",
+    linkedin: "https://www.linkedin.com/in/michael-hayworth-b670b277/",
+    github: "https://github.com/MichaelHayworth"
   },
   {
     active: "info",
@@ -41,7 +41,7 @@ export default [
     facebook: "https://www.facebook.com/",
     instagram: "https://www.instagram.com/",
     twitter: "https://twitter.com/",
-    linkedin: "https://www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/daniel-aromando-113949129/",
     github: "https://github.com/"
   },
   {

@@ -40,7 +40,7 @@ export default class Contact extends Component {
                 </List.Item>
                 <List.Item>
                   <List.Icon name="mail" />
-                  <List.Content>info@osucyber.club</List.Content>
+                  <List.Content><a href="mailto:info@osucyber.club">info@osucyber.club</a></List.Content>
                 </List.Item>
                 <List.Item>
                   <List.Icon name="phone" />

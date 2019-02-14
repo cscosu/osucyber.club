@@ -11,24 +11,24 @@ const socialStuff = () => {
   return (
     <Container>
       <Responsive {...Responsive.onlyMobile}>
-        <a href="#" style={{ color: "#BB0300" }}>
+        <a href="http://slack.osucyber.club" style={{ color: "#BB0300" }}>
           <Icon name="slack" size="big" />
         </a>
-        <a href="#" style={{ color: "grey" }}>
+        <a href="mailto:info@osucyber.club" style={{ color: "grey" }}>
           <Icon name="paper plane" size="big" />
         </a>
-        <a href="#" style={{ color: "black" }}>
+        <a href="http://mailinglist.osucyber.club" style={{ color: "black" }}>
           <Icon name="mail" size="big" />
         </a>
       </Responsive>
       <Responsive minWidth={Responsive.onlyTablet.minWidth}>
-        <a href="#" style={{ color: "#BB0300" }}>
+        <a href="http://slack.osucyber.club" style={{ color: "#BB0300" }}>
           <Icon name="slack" size="huge" link />
         </a>
-        <a href="#" style={{ color: "grey" }}>
+        <a href="mailto:info@osucyber.club" style={{ color: "grey" }}>
           <Icon name="paper plane" size="huge" link />
         </a>
-        <a href="#" style={{ color: "black" }}>
+        <a href="http://mailinglist.osucyber.club" style={{ color: "black" }}>
           <Icon name="mail" size="huge" link />
         </a>
       </Responsive>
