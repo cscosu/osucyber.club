@@ -25,7 +25,7 @@ const socialStuff = () => {
         <a href="http://slack.osucyber.club" style={{ color: "#BB0300" }}>
           <Icon name="slack" size="huge" link />
         </a>
-        <a href="mailto:info@osucyber.club" style={{ color: "grey" }}>
+        <a href="mailto:info@osucyber.club" style={{ color: "silver" }}>
           <Icon name="paper plane" size="huge" link />
         </a>
         <a href="http://mailinglist.osucyber.club" style={{ color: "black" }}>
