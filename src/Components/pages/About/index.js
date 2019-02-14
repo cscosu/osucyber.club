@@ -71,7 +71,7 @@ class About extends Component {
                     <br />
                   </p>
                   <p>
-                    Join our <a href="slack.osucyber.club">Slack</a> channel to stay in the loop!
+                    Join our <a href="http://slack.osucyber.club">Slack</a> channel to stay in the loop!
                   </p>
                 </Grid.Column>
               </Grid>
