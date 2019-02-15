@@ -20,7 +20,7 @@ class NavBarDesktop extends Component {
           <Grid.Row>
             <Grid.Column width={1} />
             <Grid.Column width={7}>
-              <Image src="/img/words_white.png" size="small" href="/" />
+              <Image src="/img/new_words_white.png" size="small" href="/" />
             </Grid.Column>
             <Grid.Column width={7}>
               <Menu compact inverted floated="right" color="black">

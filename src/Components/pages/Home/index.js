@@ -42,7 +42,7 @@ const robotText = () => {
       <Responsive {...Responsive.onlyMobile}>
         <Image
           size="massive"
-          src="/img/words.png"
+          src="/img/new_words.png"
           verticalAlign="middle"
           style={{
             paddingTop: "50%",
@@ -54,7 +54,7 @@ const robotText = () => {
       <Responsive minWidth={Responsive.onlyTablet.minWidth}>
         <Image
           size="massive"
-          src="/img/words.png"
+          src="/img/new_words.png"
           verticalAlign="middle"
           style={{
             padding: "10%",
