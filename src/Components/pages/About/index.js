@@ -29,16 +29,18 @@ class About extends Component {
                   }}
                   verticalAlign="middle"
                 >
-                  <h3>About</h3>
+                  <h3>About us</h3>
                   <p>
-                    Shankle shoulder ball tip prosciutto short loin buffalo
-                    flank frankfurter. Ham hock pork kielbasa shankle corned
-                    beef, pancetta chuck sausage turducken meatloaf jerky.
-                    Drumstick spare ribs t-bone fatback beef ribs porchetta
-                    landjaeger kielbasa pork. Chuck short ribs brisket ribeye
-                    strip steak beef kevin. Ribeye cupim prosciutto beef.
+                    We do everything from hacking to snacking. Our purpose is to
+                    promote cyber and information security across the university
+                    community, teach different tools used in both defensive and
+                    offensive cyber security, and represent Ohio State at
+                    Capture the Flag events across the nation.
+                  </p>
+                  <p>
+                    <b>Weekly meetings: </b>
+                    7:00 - 8:00PM in JR 270
                     <br />
-                    Regular weekly meetings are held 7:00 - 8:00 pm room TBD
                   </p>
                 </Grid.Column>
               </Grid>
