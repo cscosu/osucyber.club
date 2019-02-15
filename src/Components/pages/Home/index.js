@@ -57,8 +57,8 @@ const robotText = () => {
           src="/img/new_words_black_red.png"
           verticalAlign="middle"
           style={{
-            padding: "10%",
-            paddingBottom: "0%",
+            padding: "0%",
+            paddingBottom: "10%",
             paddingTop: "17.5%",
             textAlign: "center"
           }}
