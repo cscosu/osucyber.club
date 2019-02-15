@@ -48,7 +48,7 @@ export default [
     image: 'img/board/noah.jpg',
     role: 'Web guy',
     email: 'kritz.8@osu.edu',
-    bio: `Aspiring binary analysis & reverse engineering ninja. Node.js enthusiast. Really likes bacon. Once ate 81 chicken wings in a single setting.`,
+    bio: `Aspiring binary analysis & reverse engineering ninja. Node.js enthusiast. Really likes bacon. Once ate 81 chicken wings in a single sitting.`,
     quote: `“I work at a college as a janitor even though I feel like I’m smarter than most of the people who go there. 
     Sometimes I see an equation written on a blackboard like half an equation and… I just figure it out."`,
     twitter: 'https://twitter.com/kr1tzb1tz',
