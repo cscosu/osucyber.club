@@ -69,5 +69,11 @@ export default [
     logo: "/img/tools/metasploit.png",
     desc: "Point and click hacking.",
     href: "https://www.metasploit.com/"
+  },
+  {
+    name: "Ghidra",
+    logo: "/img/tools/ghidra.png",
+    desc: "The way of the future for reversing. An open-source reverse engineering framework from the NSA.",
+    href: "https://ghidra-sre.org/"
   }
 ];
