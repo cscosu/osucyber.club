@@ -50,17 +50,4 @@ export default [
     linkedin: 'https://www.linkedin.com/in/tyler-harris-422b44153/',
     github: 'https://github.com/laser505t'
   },
-  {
-    active: 'info',
-    actionKey: 'ct',
-    name: 'Cameron Taylor',
-    image: 'img/board/cam.jpg',
-    role: 'Past President',
-    email: 'cameron@osucyber.club',
-    bio: `I'm a hardware guy at heart, but what good is that without a little software knowledge?`,
-    quote: `“:w saves”`,
-    twitter: 'https://twitter.com/bobataylor',
-    linkedin: 'https://www.linkedin.com/in/cameron-taylor-77b22b109/',
-    github: 'https://github.com/bobataylor'
-  },
 ]
