@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Container, Image, Divider, Icon, Responsive } from "semantic-ui-react";
+import React from "react";
+import { Container, Responsive } from "semantic-ui-react";
 import desktopParams from "./Desktop";
 import mobileParams from "./Mobile";
 import Particles from "react-particles-js";

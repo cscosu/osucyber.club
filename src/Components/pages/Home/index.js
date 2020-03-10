@@ -69,16 +69,6 @@ const robotText = () => {
   );
 };
 
-const cppImage = "/img/c++.jpg";
-
-const parallaxStyles = {
-  background: "white",
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%,-50%)"
-};
-
 class Home extends Component {
   constructor() {
     super();

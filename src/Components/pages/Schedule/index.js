@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Header, Grid, Image, List } from "semantic-ui-react";
+import { Container, Header } from "semantic-ui-react";
 
 export default class Schedule extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class Schedule extends Component {
         </Header>
         <br />
         <p style={{ paddingTop: "5%", textAlign: "center" }}>
-          <iframe src="https://calendar.google.com/calendar/embed?src=cscosu%40gmail.com&ctz=America%2FNew_York" style={{border: "0", width: "100%", height: "400px"}}></iframe>
+          <iframe title="clubCalendar" src="https://calendar.google.com/calendar/embed?src=cscosu%40gmail.com&ctz=America%2FNew_York" style={{border: "0", width: "100%", height: "400px"}}></iframe>
         </p>
       </Container>
     );
