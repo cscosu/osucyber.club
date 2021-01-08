@@ -12,11 +12,13 @@ import board from "./board.js";
 class Board extends Component {
   // To add more board just set an initial actionKey for them
   state = {
-    mh: "info",
     kw: "info",
-    sp: "info",
-    th: "info",
-    ct: "info"
+    yj: "info",
+    ah: "info",
+    rm: "info",
+    cd: "info",
+    am: "info",
+    nk: "info"
   };
 
   buttons = boardMember => {
