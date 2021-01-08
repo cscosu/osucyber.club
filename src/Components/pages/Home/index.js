@@ -6,6 +6,7 @@ import Board from "../Board";
 import Schedule from "../Schedule";
 import Tools from "../Tools";
 import Contact from "../Contact";
+import Sponsor from "../Sponsor";
 import "semantic-ui-css/semantic.min.css";
 
 const socialStuff = () => {
@@ -13,24 +14,24 @@ const socialStuff = () => {
     <Container>
       <Responsive {...Responsive.onlyMobile}>
         <a href="http://slack.osucyber.club" style={{ color: "#BB0300" }}>
-          <Icon name="slack" size="big" />
+          <button class="ui button red"><Icon name="slack" style={{ color: "white" }} />Join our Slack</button>
         </a>
-        <a href="mailto:info@osucyber.club" style={{ color: "gray" }}>
-          <Icon name="paper plane" size="big" />
+        <a href="mailto:info@osucyber.club" style={{ color: "silver" }}>
+          <button class="ui button red"><Icon name="paper plane" style={{ color: "white" }} />Send us an email</button>
         </a>
-        <a href="http://mailinglist.osucyber.club" style={{ color: "black" }}>
-          <Icon name="mail" size="big" />
+        <a href="http://mailinglist.osucyber.club">
+          <button class="ui button red"><Icon name="mail" style={{ color: "white" }} />Join our Mailing List</button>
         </a>
       </Responsive>
       <Responsive minWidth={Responsive.onlyTablet.minWidth}>
         <a href="http://slack.osucyber.club" style={{ color: "#BB0300" }}>
-          <Icon name="slack" size="huge" link />
+          <button class="huge ui button red"><Icon name="slack" style={{ color: "white" }} />Join our Slack</button>
         </a>
         <a href="mailto:info@osucyber.club" style={{ color: "silver" }}>
-          <Icon name="paper plane" size="huge" link />
+          <button class="huge ui button red"><Icon name="paper plane" style={{ color: "white" }} />Send us an email</button>
         </a>
-        <a href="http://mailinglist.osucyber.club" style={{ color: "black" }}>
-          <Icon name="mail" size="huge" link />
+        <a href="http://mailinglist.osucyber.club">
+          <button class="huge ui button red"><Icon name="mail" style={{ color: "white" }} />Join our Mailing List</button>
         </a>
       </Responsive>
     </Container>
@@ -94,6 +95,7 @@ class Home extends Component {
         <Schedule />
         <Tools />
         <Contact />
+	<Sponsor />
       </div>
     );
   }

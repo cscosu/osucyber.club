@@ -32,6 +32,11 @@ let links = [
     href: "/#tools"
   },
   {
+    content: "Sponsor / Donate",
+    key: "sponsor",
+    href: "/#sponsor"
+  },
+  {
     content: "Contact",
     key: "contact",
     href: "/#contact"

@@ -39,7 +39,7 @@ class About extends Component {
                   </p>
                   <p>
                     <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM in JR 270
+                    Tuesdays at 7:00 - 8:00PM <strike>in JR 270</strike> over Zoom -- link is sent on the mailing list
                     <br />
                   </p>
                 </Grid.Column>
@@ -69,7 +69,7 @@ class About extends Component {
                   </p>
                   <p>
                     <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM in JR 270
+                    Tuesdays at 7:00 - 8:00PM <strike>in JR 270</strike> over Zoom -- link is sent on the mailing list
                     <br />
                   </p>
                   <p>
