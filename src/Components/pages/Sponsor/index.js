@@ -26,6 +26,18 @@ export default class Sponsor extends Component {
 	    purchase a variety of hardware hacking tools, IoT devices, and more.
 	</p>
 
+        <Header as="h2" style={{ textAlign: "center" }}>
+          Current Sponsors
+        </Header>
+	<Grid stackable>
+	  <Grid.Column width={8}>
+	    <Image centered src="img/sponsors/battelle.svg" size="large" />
+	  </Grid.Column>
+	  <Grid.Column width={8}>
+	    <Image centered src="img/sponsors/northrop_grumman.svg" size="large" />
+	  </Grid.Column>
+	</Grid>
+
         <br />
         <Grid divided stackable>
           <Grid.Column width={8}>
