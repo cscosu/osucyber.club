@@ -47,21 +47,33 @@ class NavBarMobile extends Component {
             onHide={this.handleSidebarHide}
           >
             {this.props.links.map((link, key) => (
-              <Item
-                key={key}
-                // http://docs.w3cub.com/dom/element/scrollintoview/
-                scroll={el =>
-                  el.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                  })
-                }
-                onClick={this.handleSidebarHide}
-                as={Link}
-                to={link.href}
-              >
-                {link.content}
-              </Item>
+	      link.external ? (
+		// copy, to change
+                <Item
+                  key={key}
+                  onClick={this.handleSidebarHide}
+                  as={"a"}
+                  href={link.href}
+                >
+                  {link.content}
+                </Item>
+	      ) : (
+                <Item
+                  key={key}
+                  // http://docs.w3cub.com/dom/element/scrollintoview/
+                  scroll={el =>
+                    el.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start"
+                    })
+                  }
+                  onClick={this.handleSidebarHide}
+                  as={Link}
+                  to={link.href}
+                >
+                  {link.content}
+                </Item>
+	      )
             ))}
           </Sidebar>
           <Sidebar.Pusher

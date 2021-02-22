@@ -28,22 +28,34 @@ class NavBarDesktop extends Component {
                   {this.props.links.map(
                     link =>
                       link.href ? (
-                        <Menu.Item
-                          key={link.key}
-                          as={Link}
-                          to={link.href}
-                          smooth
-                          scroll={el =>
-                            el.scrollIntoView({
-                              behavior: "smooth",
-                              block: "center"
-                            })
-                          }
-                          content={link.content}
-                          style={{ fontSize: "1.2em" }}
-                          active={this.state.activeItem === link.key}
-                          onClick={this.handleItemClick.bind(this)}
-                        />
+			link.external ? (
+                          <Menu.Item
+                            key={link.key}
+                            as={"a"}
+                            href={link.href}
+                            content={link.content}
+                            style={{ fontSize: "1.2em" }}
+                            active={this.state.activeItem === link.key}
+                            onClick={this.handleItemClick.bind(this)}
+                          />
+			) : (
+                          <Menu.Item
+                            key={link.key}
+                            as={Link}
+                            to={link.href}
+                            smooth
+                            scroll={el =>
+                              el.scrollIntoView({
+                                behavior: "smooth",
+                                block: "center"
+                              })
+                            }
+                            content={link.content}
+                            style={{ fontSize: "1.2em" }}
+                            active={this.state.activeItem === link.key}
+                            onClick={this.handleItemClick.bind(this)}
+                          />
+			)
                       ) : (
                         <Dropdown
                           item

@@ -40,6 +40,12 @@ let links = [
     content: "Sponsor / Donate",
     key: "sponsor",
     href: "/#sponsor"
+  },
+  {
+    content: "Wiki",
+    key: "wiki",
+    href: "//wiki.osucyber.club",
+    external: "truthy"
   }
 ];
 
