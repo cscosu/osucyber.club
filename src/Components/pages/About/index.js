@@ -31,7 +31,7 @@ class About extends Component {
                 >
                   <h3>About us</h3>
                   <p>
-                    We do everything from hacking to snacking. Our purpose is to
+                    Our purpose is to
                     promote cyber and information security across the university
                     community, teach different tools used in both defensive and
                     offensive cyber security, and represent Ohio State at
@@ -39,7 +39,7 @@ class About extends Component {
                   </p>
                   <p>
                     <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM <strike>in JR 270</strike> over Zoom -- link is sent on the mailing list
+                    Tuesdays at 7:00 - 8:00PM in Fontana Lab 2040
                     <br />
                   </p>
                 </Grid.Column>
@@ -61,7 +61,7 @@ class About extends Component {
                 >
                   <h3>About us</h3>
                   <p>
-                    We do everything from hacking to snacking. Our purpose is to
+                    Our purpose is to
                     promote cyber and information security across the university
                     community, teach different tools used in both defensive and
                     offensive cyber security, and represent Ohio State at
@@ -69,11 +69,11 @@ class About extends Component {
                   </p>
                   <p>
                     <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM <strike>in JR 270</strike> over Zoom -- link is sent on the mailing list
+                    Tuesdays at 7:00 - 8:00PM in Fontana Lab 2040 
                     <br />
                   </p>
                   <p>
-                    Join our <a href="http://slack.osucyber.club">Slack</a> channel to stay in the loop!
+                    Join our <a href="http://discord.osucyber.club">Discord</a> server to stay in the loop!
                   </p>
                 </Grid.Column>
               </Grid>

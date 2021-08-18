@@ -33,25 +33,5 @@ export default [
     quote: ``,
     linkedin: 'https://www.linkedin.com/in/andrew-haberlandt-4baa46197/',
     github: 'https://github.com/ndrewh'
-  },
-  {
-    active: 'info',
-    actionKey: 'nk',
-    name: 'Nick Kuhl',
-    image: 'img/board/unknown.png',
-    role: 'Outreach Coordinator',
-    email: 'kuhl.90@osu.edu',
-    linkedin: "https://www.linkedin.com/in/nick-kuhl-a73977148/",
-    github: 'https://github.com/nickkuhl2021',
-    bio: `Long-distance distance runner with a passion for security and privacy`,
-    image: "img/board/nick.jpg"
-  },
-  {
-    active: 'info',
-    actionKey: 'cd',
-    name: 'Jackson Leverett',
-    image: 'img/board/unknown.png',
-    role: 'CTF Captain',
-    email: 'leverett.3@osu.edu',
   }
 ]

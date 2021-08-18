@@ -33,8 +33,8 @@ export default class DesktopFooter extends Component {
             style={{ textAlign: "center" }}
             width={4}
           >
-            <a style={{ color: "green" }} href="http://slack.osucyber.club">
-              <Icon link name="slack" size="big" />
+            <a style={{ color: "green" }} href="http://discord.osucyber.club">
+              <Icon link name="discord" size="big" />
             </a>
             <a style={{ color: "white" }} href="mailto:info@osucyber.club">
               <Icon link name="paper plane" size="big" />

@@ -13,8 +13,8 @@ const socialStuff = () => {
   return (
     <Container>
       <Responsive {...Responsive.onlyMobile}>
-        <a href="http://slack.osucyber.club" style={{ color: "#BB0300" }}>
-          <button class="ui button red"><Icon name="slack" style={{ color: "white" }} />Join our Slack</button>
+        <a href="https://discord.osucyber.club" style={{ color: "#BB0300" }}>
+	  <button class="ui button red"><Icon name="discord" style={{ color: "white" }} />Join our Discord</button>
         </a>
         <a href="mailto:info@osucyber.club" style={{ color: "silver" }}>
           <button class="ui button red"><Icon name="paper plane" style={{ color: "white" }} />Send us an email</button>
@@ -23,12 +23,12 @@ const socialStuff = () => {
           <button class="ui button red"><Icon name="mail" style={{ color: "white" }} />Join our Mailing List</button>
         </a>
 	<a href="https://wiki.osucyber.club/Bootcamp-CTF/Welcome">
-          <button class="ui button blue"><Icon name="flag" style={{ color: "white" }} />Spring 2021 Bootcamp CTF</button>
+          <button class="ui button blue"><Icon name="flag" style={{ color: "white" }} />Bootcamp CTF</button>
 	</a>
       </Responsive>
       <Responsive minWidth={Responsive.onlyTablet.minWidth}>
-        <a href="http://slack.osucyber.club" style={{ color: "#BB0300" }}>
-          <button class="huge ui button red"><Icon name="slack" style={{ color: "white" }} />Join our Slack</button>
+        <a href="https://discord.osucyber.club" style={{ color: "#BB0300" }}>
+          <button class="huge ui button red"><Icon name="discord" style={{ color: "white" }} />Join our Discord</button>
         </a>
         <a href="mailto:info@osucyber.club" style={{ color: "silver" }}>
           <button class="huge ui button red"><Icon name="paper plane" style={{ color: "white" }} />Send us an email</button>
@@ -38,7 +38,7 @@ const socialStuff = () => {
         </a>
 	<br />
 	<a href="https://wiki.osucyber.club/Bootcamp-CTF/Welcome">
-          <button style={{ "margin-top": "10px" }} class="huge ui button blue"><Icon name="flag" style={{ color: "white" }} />Spring 2021 Bootcamp CTF</button>
+          <button style={{ "margin-top": "10px" }} class="huge ui button blue"><Icon name="flag" style={{ color: "white" }} />Bootcamp CTF</button>
 	</a>
       </Responsive>
     </Container>
