@@ -1,15 +1,15 @@
 export default [
   {
     active: 'info',
-    actionKey: 'kw',
-    name: 'Kyle Westhaus',
-    image: 'img/board/kyle.jpg',
+    actionKey: 'gs',
+    name: 'Gent Semaj',
+    image: 'img/board/gent.jpg',
     role: 'President',
-    email: 'kyle@osucyber.club',
-    bio: `Outdoorsman and linux nerd who has dabbled in all areas of pwning.`,
-    quote: `“Success is the sum of small efforts, repeated day in and day out.”`,
-    linkedin: 'https://www.linkedin.com/in/kyle-westhaus-814154172/',
-    github: 'https://github.com/kwesthaus'
+    email: 'semaj.3@osu.edu',
+    bio: `Programmer of computers, watcher of anime, consumer of pizza.`,
+    quote: `“Stop quoting me on things I never said.” -Sun Tzu`,
+    linkedin: 'https://www.linkedin.com/in/gent-semaj/',
+    github: 'https://github.com/gsemaj'
   },
   {
     active: 'info',
