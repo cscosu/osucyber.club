@@ -18,7 +18,10 @@ class Board extends Component {
     rm: "info",
     cd: "info",
     am: "info",
-    nk: "info"
+    nk: "info",
+    la: "info",
+    gs: "info",
+    jb: "info"
   };
 
   buttons = boardMember => {
