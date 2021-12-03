@@ -32,7 +32,7 @@ export default [
     email: 'barbee.64@osu.edu',
     bio: `Rock climber, avid music fan, curious student`,
     quote: `"Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something." - Richard Stallman`,
-    linkedin: 'https://www.linkedin.com/in/andrew-haberlandt-4baa46197/',
-    github: 'https://github.com/ndrewh'
+    linkedin: 'https://www.linkedin.com/in/josh-barbee',
+    github: 'https://github.com/joshbarbee'
   }
 ]
