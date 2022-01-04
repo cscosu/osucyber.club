@@ -42,10 +42,6 @@ export default class Contact extends Component {
                   <List.Icon name="mail" />
                   <List.Content><a href="mailto:info@osucyber.club">info@osucyber.club</a></List.Content>
                 </List.Item>
-                <List.Item>
-                  <List.Icon name="phone" />
-                  <List.Content>+1 614-688-3412</List.Content>
-                </List.Item>
               </List>
             </div>
           </Grid.Column>
