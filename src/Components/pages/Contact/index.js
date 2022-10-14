@@ -32,11 +32,7 @@ export default class Contact extends Component {
               <List size="large">
                 <List.Item>
                   <List.Icon name="user" />
-                  <List.Content>Matthew Ayers, Secretary</List.Content>
-                </List.Item>
-                <List.Item>
-                  <List.Icon name="marker" />
-                  <List.Content>Columbus, OH</List.Content>
+                  <List.Content>Lennon Anderson</List.Content>
                 </List.Item>
                 <List.Item>
                   <List.Icon name="mail" />
