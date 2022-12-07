@@ -18,7 +18,7 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "deploy": "aws s3 sync ./build/ s3://osucyber-club-website --delete; aws cloudfront create-invalidation --distribution-id E3HVGTU1ZKYB9W --paths '/*';",
     "test": "react-scripts test",
