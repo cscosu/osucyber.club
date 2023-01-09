@@ -39,7 +39,7 @@ class About extends Component {
                   </p>
                   <p>
                     <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM in Pomerene Hall 150
+                    Tuesdays at 7:00 - 8:00PM in Fontana Labs 2040
                     <br />
                   </p>
                 </Grid.Column>
@@ -69,7 +69,7 @@ class About extends Component {
                   </p>
                   <p>
                     <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM in Pomerene Hall 150
+                    Tuesdays at 7:00 - 8:00PM in Fontana Labs 2040
                     <br />
                   </p>
                   <p>
