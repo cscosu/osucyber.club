@@ -25,9 +25,6 @@ const socialStuff = () => {
 	<a href="https://wiki.osucyber.club/Bootcamp-CTF/Welcome">
           <button class="ui button blue"><Icon name="flag" style={{ color: "white" }} />Bootcamp CTF</button>
 	</a>
-	<a href="https://ctf.osucyber.club">
-          <button class="ui button blue"><Icon name="flag" style={{ color: "white" }} />BuckeyeCTF 2022</button>
-	</a>
       </Responsive>
       <Responsive minWidth={Responsive.onlyTablet.minWidth}>
         <a href="https://discord.osucyber.club" style={{ color: "#BB0300" }}>
@@ -42,9 +39,6 @@ const socialStuff = () => {
 	<br />
 	<a href="https://wiki.osucyber.club/Bootcamp-CTF/Welcome">
           <button style={{ "margin-top": "10px" }} class="huge ui button blue"><Icon name="flag" style={{ color: "white" }} />Bootcamp CTF</button>
-	</a>
-	<a href="https://ctf.osucyber.club">
-          <button class="huge ui button blue"><Icon name="flag" style={{ color: "white" }} />BuckeyeCTF 2022</button>
 	</a>
       </Responsive>
     </Container>
