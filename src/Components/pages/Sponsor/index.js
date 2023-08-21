@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Header, Grid, Image, List } from "semantic-ui-react";
+import { Container, Header, Grid, Image } from "semantic-ui-react";
 
 export default class Sponsor extends Component {
   render() {
