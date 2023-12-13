@@ -52,12 +52,6 @@ export default [
     href: "https://www.wireshark.org/"
   },
   {
-    name: "Cain & Abel",
-    logo: "/img/tools/cainandabel.png",
-    desc: "Password cracker.",
-    href: "http://www.oxid.it/cain.html"
-  },
-  {
     name: "ctf-tools",
     logo: "/img/tools/ctf-tools.png",
     desc:

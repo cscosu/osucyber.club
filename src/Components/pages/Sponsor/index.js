@@ -30,12 +30,7 @@ export default class Sponsor extends Component {
           Current Sponsors
         </Header>
 	<Grid stackable>
-	  <Grid.Column width={8}>
-	    <Image centered src="img/sponsors/battelle.svg" size="large" />
-	  </Grid.Column>
-	  <Grid.Column width={8}>
-	    <Image centered src="img/sponsors/northrop_grumman.svg" size="large" />
-	  </Grid.Column>
+		<Image centered src="img/sponsors/battelle.svg" size="large" />
 	</Grid>
 
         <br />
