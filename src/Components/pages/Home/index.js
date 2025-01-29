@@ -3,7 +3,6 @@ import { Container, Image, Icon, Responsive } from "semantic-ui-react";
 import Particles from "./Particles";
 import About from "../About";
 import Board from "../Board";
-import Schedule from "../Schedule";
 import Tools from "../Tools";
 import Contact from "../Contact";
 import Sponsor from "../Sponsor";
@@ -99,10 +98,9 @@ class Home extends Component {
         </Container>
         <About />
         <Board />
-        <Schedule />
         <Tools />
         <Contact />
-	<Sponsor />
+      	<Sponsor />
       </div>
     );
   }
