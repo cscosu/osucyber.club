@@ -10,22 +10,7 @@ import {
 import board from "./board.js";
 
 class Board extends Component {
-  // To add more board just set an initial actionKey for them
-  state = {
-    kw: "info",
-    yj: "info",
-    ah: "info",
-    rm: "info",
-    cd: "info",
-    am: "info",
-    nk: "info",
-    la: "info",
-    gs: "info",
-    jb: "info",
-    mb: "info",
-    sm: "info",
-  };
-
+  state = Object.fromEntries(board.map((boardMember) => [boardMember.actionKey, "info"]));
   buttons = boardMember => {
     return (
       <Button.Group size="mini">
