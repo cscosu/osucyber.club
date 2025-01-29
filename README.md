@@ -24,4 +24,4 @@
 
 #### To deploy to prod
 
-- `npm deploy`
+- `npm run deploy`
