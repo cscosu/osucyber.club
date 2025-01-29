@@ -7,6 +7,24 @@ const cppImage = "/img/c++.jpg";
 
 class About extends Component {
   render() {
+    const about = <>
+      <h3>About us</h3>
+      <p>
+        Our purpose is to
+        promote cyber and information security across the university
+        community, teach different tools used in both defensive and
+        offensive cyber security, and represent Ohio State at
+        Capture the Flag events across the nation.
+      </p>
+      <p>
+        <b>Weekly meetings: </b>
+        Tuesdays at 7:00 - 8:00PM in Enarson Classrom Building.
+      </p>
+      <p>
+      <a href="https://discord.osucyber.club">Join our Discord</a> to stay in the loop and get announcements with the room number.
+      </p>
+    </>;
+    
     return (
       <Parallax bgImage={cppImage} strength={500}>
         <Responsive {...Responsive.onlyMobile}>
@@ -29,19 +47,7 @@ class About extends Component {
                   }}
                   verticalAlign="middle"
                 >
-                  <h3>About us</h3>
-                  <p>
-                    Our purpose is to
-                    promote cyber and information security across the university
-                    community, teach different tools used in both defensive and
-                    offensive cyber security, and represent Ohio State at
-                    Capture the Flag events across the nation.
-                  </p>
-                  <p>
-                    <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM in Pomerene Hall 150
-                    <br />
-                  </p>
+                  {about}
                 </Grid.Column>
               </Grid>
             </Container>
@@ -59,22 +65,7 @@ class About extends Component {
                   style={{ paddingLeft: "5%", fontSize: "1.2em" }}
                   verticalAlign="middle"
                 >
-                  <h3>About us</h3>
-                  <p>
-                    Our purpose is to
-                    promote cyber and information security across the university
-                    community, teach different tools used in both defensive and
-                    offensive cyber security, and represent Ohio State at
-                    Capture the Flag events across the nation.
-                  </p>
-                  <p>
-                    <b>Weekly meetings: </b>
-                    Tuesdays at 7:00 - 8:00PM in Pomerene Hall 150
-                    <br />
-                  </p>
-                  <p>
-                    Join our <a href="http://discord.osucyber.club">Discord</a> server to stay in the loop!
-                  </p>
+                  {about}
                 </Grid.Column>
               </Grid>
             </Container>
