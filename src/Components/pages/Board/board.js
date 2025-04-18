@@ -8,7 +8,7 @@ export default [
     email: "kingsley.60@osu.edu",
     bio: `Your local physicist.`,
     quote: `"An idiot admires complexity, a genius admires simplicity." - Terry Davis`,
-    linkedin: "www.linkedin.com/in/alec-kingsley-079216298",
+    linkedin: "https://www.linkedin.com/in/alec-kingsley-079216298",
     github: "https://github.com/alec-kingsley",
   },
   {
