@@ -1,15 +1,15 @@
 export default [
   {
     active: "info",
-    actionKey: "mb",
-    name: "Mark Bundschuh",
-    image: "img/board/mark.jpg",
+    actionKey: "ak",
+    name: "Alec Kingsley",
+    image: "img/board/alec.jpg",
     role: "President",
-    email: "bundschuh.15@osu.edu",
-    bio: `Your local computer guy.`,
-    quote: `"Talk is cheap. Show me the code." - Linus Torvalds`,
-    linkedin: "https://linkedin.com/in/mark-bundschuh-18a27a26a",
-    github: "https://github.com/mbund",
+    email: "kingsley.60@osu.edu",
+    bio: `Your local physicist.`,
+    quote: `"An idiot admires complexity, a genius admires simplicity." - Terry Davis`,
+    linkedin: "www.linkedin.com/in/alec-kingsley-079216298",
+    github: "https://github.com/alec-kingsley",
   },
   {
     active: "info",
