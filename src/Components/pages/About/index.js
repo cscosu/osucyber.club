@@ -18,7 +18,7 @@ class About extends Component {
       </p>
       <p>
         <b>Weekly meetings: </b>
-        Tuesdays at 7:00 - 8:00PM in Enarson Classrom Building.
+        Tuesdays at 7:00 - 8:00PM in Enarson Classroom Building 358.
       </p>
       <p>
       <a href="https://discord.osucyber.club">Join our Discord</a> to stay in the loop and get announcements with the room number.
