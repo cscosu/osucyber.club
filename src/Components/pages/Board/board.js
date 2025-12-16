@@ -7,7 +7,7 @@ export default [
     role: "President",
     email: "schley.20@buckeyemail.osu.edu",
     bio: `TODO: Come up with a good bio`,
-    quote: `"What is it that we value?" Wit whispered. "Innovation. Originality. Novelty. But most importantly... timeliness." -Wit\n - Brandon Sanderson`,
+    quote: `"What is it that we value?" Wit whispered. "Innovation. Originality. Novelty. But most importantly... timeliness." - Brandon Sanderson`,
     linkedin: "https://www.linkedin.com/in/ryan-schley-7a849429b/",
     github: "https://github.com/Ryflin",
   },
