@@ -26,17 +26,19 @@ export default class Contact extends Component {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                alignContent: "center"
+                alignContent: "center",
               }}
             >
               <List size="large">
                 <List.Item>
                   <List.Icon name="user" />
-                  <List.Content>Alec Kingsley</List.Content>
+                  <List.Content>Ryan Schley</List.Content>
                 </List.Item>
                 <List.Item>
                   <List.Icon name="mail" />
-                  <List.Content><a href="mailto:info@osucyber.club">info@osucyber.club</a></List.Content>
+                  <List.Content>
+                    <a href="mailto:info@osucyber.club">info@osucyber.club</a>
+                  </List.Content>
                 </List.Item>
               </List>
             </div>

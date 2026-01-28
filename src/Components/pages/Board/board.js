@@ -6,7 +6,7 @@ export default [
     image: "img/board/ryan.png",
     role: "President",
     email: "schley.20@buckeyemail.osu.edu",
-    bio: `TODO: Come up with a good bio`,
+    bio: `How could we ever trust a system we don't understand?`,
     quote: `"What is it that we value?" Wit whispered. "Innovation. Originality. Novelty. But most importantly... timeliness." - Brandon Sanderson`,
     linkedin: "https://www.linkedin.com/in/ryan-schley-7a849429b/",
     github: "https://github.com/Ryflin",
