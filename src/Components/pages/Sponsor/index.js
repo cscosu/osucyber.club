@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Header, Grid, Image, List } from "semantic-ui-react";
+import { Container, Header, Grid, Image } from "semantic-ui-react";
 
 export default class Sponsor extends Component {
   render() {
@@ -30,12 +30,7 @@ export default class Sponsor extends Component {
           Current Sponsors
         </Header>
 	<Grid stackable>
-	  <Grid.Column width={8}>
-	    <Image centered src="img/sponsors/battelle.svg" size="large" />
-	  </Grid.Column>
-	  <Grid.Column width={8}>
-	    <Image centered src="img/sponsors/northrop_grumman.svg" size="large" />
-	  </Grid.Column>
+		<Image centered src="img/sponsors/battelle.svg" size="large" />
 	</Grid>
 
         <br />

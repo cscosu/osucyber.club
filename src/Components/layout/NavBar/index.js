@@ -22,11 +22,6 @@ let links = [
     href: "/#board"
   },
   {
-    content: "Schedule",
-    key: "schedule",
-    href: "/#schedule"
-  },
-  {
     content: "CTF Tools",
     key: "tools",
     href: "/#tools"

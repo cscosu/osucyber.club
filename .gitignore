@@ -2,3 +2,6 @@
 /.vscode
 /yarn.lock
 /build
+.yarn
+.yarnrc.yml
+tags
