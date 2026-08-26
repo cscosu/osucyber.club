@@ -26,7 +26,7 @@ export default [
   {
     active: "info",
     actionKey: "bt",
-    name: "Blake Theis",
+    name: "Tran Nguyen",
     image: "img/board/tran-nguyen.webp",
     role: "Treasurer",
     email: "nguyen.3074@buckeyemail.osu.edu",
