@@ -21,8 +21,11 @@ const socialStuff = () => {
         <a href="http://mailinglist.osucyber.club">
           <button class="ui button red"><Icon name="mail" style={{ color: "white" }} />Join our Mailing List</button>
         </a>
-	<a href="https://wiki.osucyber.club/Bootcamp-CTF/Welcome">
+	<a href="https://bootcamp.osucyber.club">
           <button class="ui button blue"><Icon name="flag" style={{ color: "white" }} />Bootcamp CTF</button>
+	</a>	
+	<a href="https://wiki.osucyber.club/Bootcamp-CTF/Welcome">
+          <button class="ui button blue"><Icon name="flag" style={{ color: "white" }} />Bootcamp Wiki</button>
 	</a>
       </Responsive>
       <Responsive minWidth={Responsive.onlyTablet.minWidth}>
