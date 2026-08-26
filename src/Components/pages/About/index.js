@@ -18,7 +18,7 @@ class About extends Component {
         </p>
         <p>
           <b>Weekly meetings: </b>
-          Wednesdays at 7:00 - 8:00PM in Hitchcock Hall Room 030.
+          Wednesdays at 7:00 - 8:00PM in Enarson 358.
         </p>
         <p>
           <a href="https://discord.osucyber.club">Join our Discord</a> to stay
